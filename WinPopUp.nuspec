@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>WinPopUp</id>
+    <version>1.0.3</version>
+    <authors>IaOra</authors>
+    <owners>AliasItalPascal</owners>
+	<license type="expression">MIT</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Descrizione: crea PopUp senza utilizzare ToolTip, è sufficiente dichiarare Image e Button.</description> 
+	<dependencies>
+  <group targetFramework=".NETFramework4.8">
+    <dependency id="System.Windows.Forms" version="4.0.0" />
+  </group>
+  <group targetFramework="net6.0">
+    <dependency id="System.Windows.Forms" version="6.0.0" />
+  </group>
+</dependencies>
+	<tags>vb.net c# datagridview database</tags>
+    <readme>README.md</readme> <!-- ✅ Tag corretto per il README -->
+  </metadata>
+</package>
